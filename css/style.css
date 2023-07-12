@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: Helvetica;
-    color: rgb(206, 159, 175);
+    color: rgb(0, 0, 0);
     box-sizing: border-box;
 }
 body {
@@ -24,13 +24,13 @@ button {
     transition: .4s;
 }
 button:hover {
-    background-color: rgb(156, 110, 110);
+    background-color: rgb(194, 169, 152);
 }
 button:hover > i {
     color:rgb(0, 0, 0);
 }
 button i {
-    color: rgb(206, 159, 175);
+    color: rgb(206, 172, 149);
     font-weight: bold;
     pointer-events: none;
 }
@@ -121,7 +121,7 @@ input,select {
     margin-left: 0.4rem;
 }
 .done {
-    background-color: rgb(172, 92, 92);
+    background-color: rgba(124, 102, 82, 0.89);
 }
 .done h3 {
     color: aliceblue;
